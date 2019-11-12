@@ -5,3 +5,55 @@ body {
 	margin: 0;
 	height: 100vh;
 }
+
+
+.ingredients-span {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.page__header {
+	padding: 50px 0 0 50px;
+	border-bottom: 1px solid #5798E4;
+}
+
+.product {
+	font-weight: bold;
+}
+
+.btns-divider {
+	color: #5798E4;
+}
+
+.input-quantity {
+	color: rgb(57, 149, 255);
+	font-weight: bold;
+	font-size: 20px;
+	padding: 5px;
+	margin-left: 10px;
+	width: 50px;
+	text-align: center;
+}
+
+.list-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.ingredient-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.product-price {
+	display: flex;
+	color: green;
+	align-self: flex-end;
+}
+
+.payment-container {
+	margin: 0 0 50px 50px;
+}
